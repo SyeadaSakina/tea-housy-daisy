@@ -21,7 +21,7 @@
             theme: {
                 extend: {
                     colors: {
-                        'gradient-start': '#FF8938',
+                        'gradient-start': '#F8938',
                         'gradient-end': '#F00'
                     }
                 }
@@ -37,8 +37,8 @@
 
 <body class="font-manrope">
     <header class="container mx-auto">
-        <div class="my-32">
-            <div class="flex justify-between flex-col lg:flex-row">
+        <div class="hero">
+            <div class="hero-content flex-col lg:flex-row">
                 <div>
                     <h1 class="text-7xl font-extrabold">
                         It's good <br>
@@ -242,8 +242,7 @@
                     <div class="relative">
                         <input type="text" placeholder="username@site.com"
                             class="py-4 bg-transparent border-b-2 border-black outline-none" />
-                        <button
-                            class="btn text-white absolute top-0 right-0 rounded-full bg-gradient-to-r from-gradient-start to-gradient-end">
+                        <button class="btn btn-primary absolute top-0 right-0 rounded-full">
                             <i class="fa-solid fa-chevron-right"></i>
                         </button>
                     </div>
